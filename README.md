@@ -4,7 +4,7 @@
 https://youtu.be/R5WknhNOhNs
 
 ## Breadboard Schematic
-![Breadboard Schematic](/RemoteControl.jpg)
+![Breadboard Schematic](/RemoteControl.png)
 
 ## Library GitHub Reference
 https://github.com/z3t0/Arduino-IRremote
