@@ -18,7 +18,7 @@ Using a user built library for IR code transmission, a simulation of a remote co
 * Approximate Total: $11-12 per remote control unit
 
 ## IR Protocol
---> Uses RC-5 Protocol
+--> Uses RC-5 Protocol for universal compatibility
 
 ## Power Management
 * 9V powered unit (batteries provided by user)
