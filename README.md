@@ -1,5 +1,8 @@
 # ECE387-Remote Control Assignmment
 
+## Overview
+Using a user built library for IR code transmission, a simulation of a remote control was built using an Arduino. The source code for this IR library was edited to allow for easy viewing of the data transmission using an LED (no IR light of my own). The demo video also slows down playback of the LEDs to allow ensure that the LED can be clearly observed without worry of missing any flashes (should the video recording not have sufficient fps). On the breadboard, the top button will transmit the Standby code, then (right to left), a volume up and volume down feature. The Serial monitor displayed in the video outputs the order of buttons pressed to confirm which function has been requested.
+
 ## Video Demonstration Link
 https://youtu.be/R5WknhNOhNs
 
@@ -11,9 +14,6 @@ https://github.com/z3t0/Arduino-IRremote
 
 ## Schematic (Uses full Arduino instead of just CPU)
 ![Schematic](/RemoteControl_schem.png)
-
-## Overview
-Using a user built library for IR code transmission, a simulation of a remote control was built using an Arduino. The source code for this IR library was edited to allow for easy viewing of the data transmission using an LED (no IR light of my own). The demo video also slows down playback of the LEDs to allow ensure that the LED can be clearly observed without worry of missing any flashes (should the video recording not have sufficient fps). On the breadboard, the top button will transmit the Standby code, then (right to left), a volume up and volume down feature. The Serial monitor displayed in the video outputs the order of buttons pressed to confirm which function has been requested.
 
 ## Approximate Costs:
 * ~ $0.83 per PCB Unit
