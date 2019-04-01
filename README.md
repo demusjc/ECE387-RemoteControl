@@ -24,7 +24,9 @@ Using a user built library for IR code transmission, a simulation of a remote co
 * Approximate Total: $11-12 per remote control unit
 
 ## IR Protocol
---> Uses RC-5 Protocol for universal compatibility
+This code relies on the RC-5 Protocol in order to optimize for compatibility. The utilized RC library abides by this convention as described in the reference below. A readily available command table dictates what data to output through the IR LED in order to execute a given instruction. This could theoretically be applied to a number of devices, not only TVs.
+
+Reference: [RC-5 Protocol Review](https://www.sbprojects.net/knowledge/ir/rc5.php)
 
 ## Power Management
 * 9V powered unit (batteries provided by user)
